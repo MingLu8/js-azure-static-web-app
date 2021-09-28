@@ -32,5 +32,34 @@
 			"route": "/api/*",
 			"allowedRoles": [ "authenticated" ]
 		}
-	]
+	],
+  "auth": {
+    "identityProviders": {
+      "azureActiveDirectory": {
+        "registration": {
+          "openIdIssuer": "https://login.microsoftonline.com/5b5d0579-5e6c-4fcc-a5bc-64e9bfedd4c6/v2.0",
+          "clientIdSettingName": "6a124548-5d6c-4524-8d77-0e6e8a363181",
+          "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
+        }
+      },
+      "customOpenIdConnectProviders": {
+        "asiProvider": {
+          "registration": {
+            "clientIdSettingName": "6a124548-5d6c-4524-8d77-0e6e8a363181",
+            "clientCredential": {
+              "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
+            },
+            "openIdConnectConfiguration": {
+              "wellKnownOpenIdConfiguration": "https://asiloginservice.azurewebsites.net/.well-known/openid-configuration"
+            }
+          },
+          "login": {
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+            "scopes": [],
+            "loginParameterNames": []
+          }
+        }
+      }
+    }
+  }
 }
