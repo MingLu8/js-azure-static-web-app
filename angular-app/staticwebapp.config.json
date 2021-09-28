@@ -21,7 +21,7 @@
 		{
 			"route": "/api/*",
 			"methods": [ "GET" ],
-			"allowedRoles": [ "registeredusers" ]
+			"allowedRoles": [ "authenticated" ]
 		},
 		{
 			"route": "/api/*",
@@ -51,7 +51,7 @@
   //             "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
   //           },
   //           "openIdConnectConfiguration": {
-  //             "wellKnownOpenIdConfiguration": "https://asiloginservice.azurewebsites.net/.well-known/openid-configuration"
+  //             "wellKnownOpenIdConfiguration": "https://asilogin.azurewebsites.net/.well-known/openid-configuration"
   //           }
   //         },
   //         "login": {
