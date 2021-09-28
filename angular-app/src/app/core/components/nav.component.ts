@@ -46,7 +46,7 @@ export class NavComponent implements OnInit {
 
   async getUserInfo() {
     try {
-      const response = await fetch('/.auth/me');
+      const response = await fetch('/.auth/me');  
       const payload = await response.json();
       const { clientPrincipal } = payload;
       return clientPrincipal;
