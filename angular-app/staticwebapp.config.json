@@ -52,9 +52,9 @@
       "customOpenIdConnectProviders": {
         "asi": {
           "registration": {
-            "clientIdSettingName": "6a124548-5d6c-4524-8d77-0e6e8a363181",
+            "clientIdSettingName": "da757c3e-011e-41bd-8303-797634f88430",
             "clientCredential": {
-              "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
+              "clientSecretSettingName": "Omf7Q~.LHFF2a70rTy5Le8itF2kqiyR1lvoyX"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "https://asi-oidc.azurewebsites.net/.well-known/openid-configuration"
