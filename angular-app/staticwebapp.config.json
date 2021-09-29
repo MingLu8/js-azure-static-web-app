@@ -36,13 +36,13 @@
   ,
   "auth": {
     "identityProviders": {
-      // "azureActiveDirectory": {
-      //   "registration": {
-      //     "openIdIssuer": "https://login.microsoftonline.com/5b5d0579-5e6c-4fcc-a5bc-64e9bfedd4c6/v2.0",
-      //     "clientIdSettingName": "6a124548-5d6c-4524-8d77-0e6e8a363181",
-      //     "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
-      //   }
-      // },
+      "azureActiveDirectory": {
+        "registration": {
+          "openIdIssuer": "https://login.microsoftonline.com/5b5d0579-5e6c-4fcc-a5bc-64e9bfedd4c6",
+          "clientIdSettingName": "5e83c0ac-5f79-4d21-ab8c-81c11dcdf1bf",
+          "clientSecretSettingName": "lGF7Q~e1ugrj1LreQ2b~NKTI.652DCP2VTXS0"
+        }
+      },
       "google": {
         "registration": {
           "clientIdSettingName": "609429987282-f8gpsj4rn9pkjsi7tn5sipb6ohpinrn9.apps.googleusercontent.com",
