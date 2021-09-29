@@ -43,6 +43,12 @@
       //     "clientSecretSettingName": "4zu7Q~3NdSDGKDxi7HjrlQqa3Aybvt3uKD.1X"
       //   }
       // },
+      "google": {
+        "registration": {
+          "clientIdSettingName": "609429987282-f8gpsj4rn9pkjsi7tn5sipb6ohpinrn9.apps.googleusercontent.com",
+          "clientSecretSettingName": "Qs41gPlCGRicE1fNF0DHIyMZ"
+        }
+      },
       "customOpenIdConnectProviders": {
         "asi": {
           "registration": {
